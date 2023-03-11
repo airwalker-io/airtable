@@ -1,0 +1,32 @@
+{
+  "name": "@airwalker.io/airtable",
+  "version": "0.11.6",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "/LICENSE",
+    "/AIRTABLE_LICENSE.txt",
+    "/lib/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "peerDependencies": {
+    "airtable": "0.11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airwalker-io/airtable.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/airwalker-io/airtable.js/issues"
+  },
+  "homepage": "https://github.com/airwalker-io/airtable.js#readme",
+  "description": ""
+}
